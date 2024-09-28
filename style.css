@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 233, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #615e7cc4;
+    align-items: center;
+    border-radius: 1px;
+    height: 60px;
+}
+header > h1{
+    margin-left: 55px;
+    color: white;
+    font-size: 35px;
+}
+header > h1 >img {
+    
+    width: 35px;
+    height: 35px;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.3s;
+}
+
+.menu ul li a:hover::after{
+    width: 100%;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+.imagem img{
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.texto {
+    text-align: left;
+    max-width: 400px;
+    color: #615E7C;
+}
+
+.texto h3{
+    font-size: 2rem;
+}
+
+.texto p{
+    margin: 10px 0;
+    font-size: 1.0rem;
+}
+
