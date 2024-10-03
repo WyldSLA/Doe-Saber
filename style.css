@@ -152,6 +152,32 @@ header > h1 >img {
     color: #615E7C;
 }
 
+.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 170px;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5c5b89;
+    height: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
 footer{
     display: flex;
     justify-content: center;
