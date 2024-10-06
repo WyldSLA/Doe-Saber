@@ -11,19 +11,24 @@ header{
     padding: 15px;
     background-color: #615e7cc4;
     align-items: center;
-    border-radius: 1px;
     height: 60px;
     position: sticky;
     top: 0;
 }
-header > h1{
-    margin-left: 55px;
-    color: white;
-    font-size: 35px;
+.titulo-pag{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-header > h1 >img {
-    width: 35px;
-    height: 35px;
+.titulo-pag > h1{
+    margin-left: 10px;
+    color: white;
+    font-size: 2rem;
+}
+.titulo-pag > img {
+    width: 32px;
+    height: 32px;
 }
 .menu ul li{
     display: inline-block;
@@ -60,13 +65,11 @@ header > h1 >img {
     margin: auto;
     margin-bottom: 20px;
     background-color: white;
-    border-radius: 15px;
 }
 .imagem img{
     padding: 15px;
     width: 300px;
     height: 300px;
-    border-radius: 50%;
     object-fit: cover;
 }
 
@@ -115,7 +118,7 @@ header > h1 >img {
     color: #5c5b89;
     font-weight: bold;
 }
-.esfera{
+.esfera-genero{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,6 +128,11 @@ header > h1 >img {
     border-radius: 50%;
 }
 .como-funciona {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
     margin: auto;
     width: 80%;
     text-align: center;
@@ -132,37 +140,50 @@ header > h1 >img {
     color: #615E7C;
     margin-bottom: 50px;
 }
-
-.como-funciona > h3{
-    text-align: right;
+.titulo-como-funciona{
+    text-align: left;
+    max-width: 200px;
     font-size: 2rem;
-    color: #5c5b89;
-    margin-bottom: 30px;
 }
-
+.titulo-como-funciona > p{
+    font-size: 1.5rem;
+}
 .passos{
+    padding: 15px;
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
 }
-
-.passo {
-    max-width: 250px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+.passo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.passo > h4{
-    color: #333;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+.esfera-passo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #494888;
 }
-
-.passo p{
-    color: #666;
+.texto-passo{
+    text-align: left;
+    margin-left: 15px;
+    width: 470px;
+}
+.p1{
+    background-color: #494888de;
+}
+.p2{
+    background-color: #494888b0;
+}
+.p3{
+    background-color: #49488879;
+}
+.p4{
+    background-color: #4948884d;
 }
 
 .quem-somos{
