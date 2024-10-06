@@ -65,6 +65,7 @@ header{
     margin: auto;
     margin-bottom: 20px;
     background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .imagem img{
     padding: 15px;
@@ -96,7 +97,7 @@ header{
     background-color: white;
     border-radius: 15px;
     width: 80%;
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .generos-livros > h3{
     text-align: center;
@@ -138,7 +139,8 @@ header{
     text-align: center;
     padding: 20px;
     color: #615E7C;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .titulo-como-funciona{
     text-align: left;
@@ -191,10 +193,12 @@ header{
     justify-content: center;
     align-items: center;
     background-color: white;
+    width: 80%;
     border-radius: 15px;
     padding: 15px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .texto-quem-somos{
     width: 80%;
@@ -324,7 +328,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #494888;
+    background-color: #515086;
 }
 
 footer{
