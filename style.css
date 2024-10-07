@@ -274,10 +274,20 @@ header{
     font-size: 0.9rem;
     padding: 1px;
 }
+.info-contato{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-left: 10px;
+}
+.info-contato p{
+    font-size: 0.9rem;
+}
 .redes-sociais {
     display: flex;
     justify-content: center;
     padding: 15px 0px;
+    margin-top: 12px;
 }
 .redes-sociais a {
     display: flex;
