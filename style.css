@@ -89,6 +89,25 @@ header{
     font-size: 1.0rem;
 }
 
+.texto-inicio button{
+    background-color: #494888de;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.texto-inicio button:hover{
+    background-color: #494888;
+}
+
 .generos-livros{
     margin: auto;
     padding: 20px;
