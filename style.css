@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    background-color: #615e7cc4;
+    background-color: #615E7C;
     align-items: center;
     height: 60px;
     position: sticky;
@@ -67,24 +67,24 @@ header{
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.imagem img{
+.imagem-inicio img{
     padding: 15px;
     width: 300px;
     height: 300px;
     object-fit: cover;
 }
 
-.texto {
+.texto-inicio {
     text-align: left;
     max-width: 400px;
     color: #615E7C;
 }
 
-.texto h3{
+.texto-inicio h3{
     font-size: 2rem;
 }
 
-.texto p{
+.texto-inicio p{
     margin: 10px 0;
     font-size: 1.0rem;
 }
@@ -125,7 +125,7 @@ header{
     align-items: center;
     height: 70px;
     width: 70px;
-    background-color: #494888;
+    background-color: #494888de;
     border-radius: 50%;
 }
 .como-funciona {
@@ -193,19 +193,25 @@ header{
     justify-content: center;
     align-items: center;
     background-color: white;
+    gap: 50px;
     width: 80%;
     border-radius: 15px;
     padding: 15px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .texto-quem-somos{
     width: 80%;
+    text-align: center;
 }
-
+.imagem-quemsomos > img{
+    padding: 15px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
 .texto-quem-somos > h3{
-    text-align: left;
     font-size: 2rem;
     color: #5c5b89;
     margin-bottom: 30px;
@@ -224,7 +230,7 @@ header{
     align-items: center;
     margin: auto;
     width: 80%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 15px;
     background-color: white;
     border-radius: 15px;
