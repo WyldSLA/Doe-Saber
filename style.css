@@ -14,6 +14,7 @@ header{
     height: 60px;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 .titulo-pag{
@@ -248,18 +249,20 @@ header{
 
 .livros{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 15px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .livro{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 15px;
     transition: transform 0.3s ease-in-out;
+    width: 150px;
+    height: 400px;
 }
 
 .livro:hover{
@@ -277,10 +280,13 @@ header{
     width: 100%;
     height: auto;
     border-radius: 5px;
+    z-index: 1;
+    object-fit: cover;
 }
 
 .texto-livro{
     text-align: center;
+    min-height: 80px;
 }
 
 .texto-livro h5{
