@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #615e7c23;
+    align-items: center;
+    height: 60px;
+    color: #333;
+}
+.cabeçalho h1{
+    margin-left: 10px;
+    font-size: 2rem;
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.pesquisa{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #dddddd54;
+    transition: border-color 0.3s ease;
+    padding: 5px;
+}
+.pesquisa img{
+    width: 20px;
+    height: 20px;
+}
+.pesquisa input {
+    padding-left: 10px;
+    background-color: #f9f9f9;
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.pesquisa input:focus {
+    border: none;
+    outline: none;
+}
+
+.pesquisa:focus-within {
+    border-bottom: 2px solid #615e7ccc;
+}
