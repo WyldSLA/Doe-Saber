@@ -95,8 +95,11 @@ header{
     margin: 10px 0;
     font-size: 1.0rem;
 }
-
-.texto-inicio button{
+.btn-acesse-aqui a{
+    text-decoration: none;
+    color: white;
+}
+.btn-acesse-aqui{
     background-color: #494888de;
     border: none;
     border-radius: 15px;
@@ -109,9 +112,10 @@ header{
     margin-top: 15px;
     transition: background 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.texto-inicio button:hover{
+.btn-acesse-aqui:hover{
     background-color: #494888;
 }
 
