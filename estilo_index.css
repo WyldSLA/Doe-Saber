@@ -513,6 +513,16 @@ footer{
         flex-direction: column;
         width: 90%;
     }
+    .passo{
+        flex-direction: column;
+    }
+    .texto-passo{
+        text-align: center;
+        max-width: 70%;
+    }
+    .icones-genero{
+        flex-wrap: wrap;
+    }
     .generos-livros{
         width: 90%;
     }
@@ -546,7 +556,7 @@ footer{
     }
 }
 
-@media (min-width:360px){
+@media (max-width:480px){
     header{
         position: static;
         flex-direction: row;
@@ -581,7 +591,6 @@ footer{
         flex-direction: column;
     }
     .texto-passo{
-        font-size: 1.3rem;
         text-align: center;
         max-width: 70%;
     }
