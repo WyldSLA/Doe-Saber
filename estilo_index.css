@@ -63,7 +63,9 @@ header{
 .menu ul li a:hover::after{
     width: 100%;
 }
-
+.menu-icon{
+    display: none;
+}
 .inicio{
     display: flex;
     justify-content: space-evenly;
@@ -541,5 +543,46 @@ footer{
     .contato{
         width: 90%;
         margin-bottom: 20px;
+    }
+}
+
+@media (min-width:360px){
+    header{
+        position: static;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        color: white;
+    }
+    .texto-inicio{
+        padding-left: 20px;
+    }
+
+    .imagem-quemsomos{
+        width: 80%;
+        height: 80%;
+    }
+    .icones-genero{
+        flex-wrap: wrap;
+    }
+    .texto-quem-somos{
+        text-align: left;
+        font-size: 1.3rem;
+    }
+    .titulo-como-funciona{
+        text-align: center;
+    }
+    .passo{
+        flex-direction: column;
+    }
+    .texto-passo{
+        font-size: 1.3rem;
+        text-align: center;
+        max-width: 70%;
     }
 }
