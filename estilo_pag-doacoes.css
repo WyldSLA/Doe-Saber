@@ -106,6 +106,7 @@ body{
     font-size: 1.0rem;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
 }
 .sidebar ul li{
     padding: 10px;
@@ -141,6 +142,56 @@ body{
     font-weight: bold;
     color: #333;
 }
-
+.livros-doacoes{
+    margin-left: 270px;
+    padding: 15px;
+    height: auto;
+}
+.livros-doacoes h2{
+    color: white;
+    font-size: 2rem;
+}
+.caixa-livro{
+    padding: 15px;
+    width: 35%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 15px;
+    gap: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.caixa-livro img{
+   width: 100px;
+   border-radius: 10px;
+}
+.info-livro{
+    text-align: left;
+    max-width: 100%;
+}
+.info-livro h5{
+    font-size: 1rem;
+    color: #333;
+}
+.info-livro p{
+    font-size: 0.8rem;
+}
+.info-livro a{
+    text-decoration: none;
+    display: block;
+    width: 70px;
+    background-color: #51508685;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+    font-weight: 100;
+}
+.info-livro a:hover{
+    background-color: #515086ea;
+}
 
 
