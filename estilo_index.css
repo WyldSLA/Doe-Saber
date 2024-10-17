@@ -4,6 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:#49488854;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 header{
@@ -72,7 +73,7 @@ header{
     align-items: center;
     padding: 20px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -133,7 +134,7 @@ header{
     text-align: center;
     padding: 20px;
     color: #615E7C;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -192,7 +193,7 @@ header{
     margin: auto;
     padding: 20px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: white;
     border-radius: 15px;
     width: 80%;
@@ -242,7 +243,7 @@ header{
     width: 80%;
     background-color: white;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     overflow-x: auto;
@@ -315,7 +316,7 @@ header{
     border-radius: 15px;
     padding: 15px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -349,7 +350,7 @@ header{
     align-items: center;
     margin: auto;
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 15px;
     background-color: white;
     border-radius: 15px;
@@ -488,9 +489,16 @@ footer{
 
 @media (max-width:768px){
     header{
-        flex-direction: column;
+        justify-content: space-around;
         text-align: center;
         height: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        color: white;
     }
     .titulo-pag > h1{
         font-size: 1.5rem;
@@ -614,5 +622,15 @@ footer{
     }
     textarea{
         height: 80px;
+    }
+    .como-funciona,
+    .generos-livros,
+    .secao-livros,
+    .quem-somos,
+    .contatos {
+        width: 100%;
+        max-width: 85%;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
 }
