@@ -10,10 +10,13 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: #615e7c36;
+    background-color: #615E7C;
     align-items: center;
     height: 50px;
     color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .cabeçalho h1{
     margin-left: 60px;
@@ -66,7 +69,7 @@ body{
 }
 
 .pesquisa:focus-within {
-    border-bottom: 2px solid #515086d7;
+    border-bottom: 2px solid #515086;
 }
 .notificacao-e-sair{
     display: flex;
@@ -146,6 +149,11 @@ body{
     margin-left: 270px;
     padding: 15px;
     height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .livros-doacoes h2{
     color: white;
@@ -162,6 +170,7 @@ body{
     border-radius: 15px;
     gap: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 .caixa-livro img{
    width: 100px;
