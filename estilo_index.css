@@ -245,7 +245,6 @@ header{
     margin-bottom: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    overflow-x: auto;
 }
 
 .secao-livros h3 {
@@ -256,9 +255,10 @@ header{
 
 .livros{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 15px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .livro{
